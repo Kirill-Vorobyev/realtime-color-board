@@ -1,0 +1,43 @@
+.Grid {
+    width: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 0px 5px 30px rgb(96, 96, 96);
+    z-index: 100;
+}
+
+.Pickers {
+    width: 400px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: auto;
+    z-index: 100;
+}
+
+.Deselect {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -10;
+}
+
+.Mode {
+    font-weight: bold;
+    width: 400px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+    justify-content: center;
+    padding: auto;
+}
+
+.Mode select {
+    height: 32px;
+    margin: auto 10px;
+}
