@@ -5,3 +5,5 @@
 - Updates are displayed in realtime for all users
 
 Created using Firebase and React
+
+Demo: https://kirill-vorobyev.github.io/realtime-color-board/
