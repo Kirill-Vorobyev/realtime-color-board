@@ -1,3 +1,9 @@
+.Container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
 .Grid {
     width: 400px;
     display: flex;
@@ -9,12 +15,21 @@
 }
 
 .Pickers {
-    width: 400px;
+    width: 360px;
     display: flex;
     flex-flow: column;
     justify-content: center;
+    position: relative;
     margin: auto;
     z-index: 100;
+}
+
+.Picker {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 95%;
+    margin: auto;
 }
 
 .Deselect {
